@@ -9,8 +9,13 @@
 
 fastapi==0.110.0
 uvicorn[standard]==0.27.0
-# pymongo[srv]==4.6.0
+
+# MongoDB driver
 pymongo>=4.15.0,<5.0
-pydantic-core==2.16.3 --only-binary=:all:
+
+# Pydantic v2 (latest stable)
+pydantic==2.6.4
+pydantic-core>=2.35.0,<3.0.0
+
 python-dotenv==1.0.0
 email-validator==2.3.0
